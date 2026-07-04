@@ -53,7 +53,7 @@ public:
             for (size_t idx : indices) {
                 train_step(dataset.pictures[idx], dataset.labels[idx]);
             }
-            std::cout << "Epoch #" << i + 1 << " trained." << std::endl;
+            std::cout << "Epoch #" << i + 1 << " / " << epochs << " trained." << std::endl;
         }
     }
 
